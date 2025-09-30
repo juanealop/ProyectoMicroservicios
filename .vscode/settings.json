@@ -3,5 +3,6 @@
         "cliente-servicio/src/main/java/com/proyectoMicro/cliente_servicio",
         "cliente-servicio/src",
         "config-server/src/main/java/com/proyectoMicro/config_server"
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
