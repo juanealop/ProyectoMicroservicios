@@ -1,5 +1,5 @@
 
-package com.proyectoMicro.gateway_server;
+package com.proyectoMicro.gateway_server.config;
 
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.proyectoMicro.gateway_server;
+package com.proyectoMicro.gateway_server.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,5 +1,5 @@
 
-package com.proyectoMicro.gateway_server;
+package com.proyectoMicro.gateway_server.config;
 
 
 import org.springframework.cloud.gateway.route.RouteLocator;
