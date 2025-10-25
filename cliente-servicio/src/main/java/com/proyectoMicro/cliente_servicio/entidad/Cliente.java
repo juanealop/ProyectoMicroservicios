@@ -3,15 +3,31 @@ package com.proyectoMicro.cliente_servicio.entidad;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "clients")
 public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    
+    @Column(nullable = false, unique = true) 
+    private String userId;
+    
+    @Column(nullable = false)
+    private String nombre; 
 
-    private String nombre;
-    private int edad;
-    private String descripcion;
-    private String foto;
+    @Column(nullable = false)
+    private int edad;  
+    
+
+    @Column(length = 1000)
+    private String descripcion; 
+    
+    
+    @Column(length = 500)
+    private String foto;  
+
+
+    
 
     // Getters y setters
     public Long getId() {
